@@ -1,0 +1,59 @@
+/* Import */
+@import url(main.css);
+
+/* General configs */ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+:root {
+
+  --bg-color-1: #f1f1f1;
+  --bg-color-2: #2a2a2a;
+  --bg-color-3: #191629;
+  --bg-color-4: #e9e9e9;
+
+  --font-color-1: #7e7e7e;
+  --font-color-2: #f1f1f1;
+  --font-color-3: #e9e9e9;
+  --font-color-4: #191629;
+}
+
+a {
+  color: #191629;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button {
+  font-weight: 600;
+}
+
+a, button {
+  text-transform: uppercase;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+/* Default settings */
+
+.skills-box {
+  margin-bottom: 30px;
+}
+
+.skills-box h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--font-color-4);
+  margin-bottom: 10px;
+}
+
+.skills-box li {
+  color: var(--font-color-1);
+}
